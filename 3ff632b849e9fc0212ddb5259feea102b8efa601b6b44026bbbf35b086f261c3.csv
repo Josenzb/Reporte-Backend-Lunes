@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Crear cuenta de usuario","Crear aprendiz exitoso","SUCCESS","2023-04-25T19:46:00.9334971-05:00[America/Bogota]","0.0","0.58"
+"Crear cuenta de usuario","Envío de datos para la creación de usuario administrador vacíos","SUCCESS","2023-04-25T19:46:01.5785175-05:00[America/Bogota]","0.0","1.54"
+"Crear cuenta de usuario","Envío de datos para la creación de usuario aprendiz vacíos","SUCCESS","2023-04-25T19:46:03.1569982-05:00[America/Bogota]","0.0","1.48"
+"Crear cuenta de usuario","Creacion usuarios admin con caracteres especiales y numericos en el nombre","SUCCESS","2023-04-25T19:46:04.6608921-05:00[America/Bogota]","0.0","2.35"
+"Crear cuenta de usuario","Creacion usuarios aprendiz con caracteres especiales y numericos en el nombre","SUCCESS","2023-04-25T19:46:07.0261004-05:00[America/Bogota]","0.0","2.32"
+"Crear cuenta de usuario","Crear admin con un correo invalido","SUCCESS","2023-04-25T19:46:11.4365032-05:00[America/Bogota]","0.0","0.44"
+"Crear cuenta de usuario","Crear aprendiz con un correo invalido","SUCCESS","2023-04-25T19:46:11.8972429-05:00[America/Bogota]","0.0","0.48"

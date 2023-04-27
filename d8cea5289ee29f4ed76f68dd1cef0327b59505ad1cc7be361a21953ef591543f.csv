@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Actualizar ruta de aprendizaje","actualizar rutas de aprendizaje enviando campos vacios con admin Id y Id validos","FAILURE","2023-04-25T19:40:50.3145936-05:00[America/Bogota]","0.0","2.03"

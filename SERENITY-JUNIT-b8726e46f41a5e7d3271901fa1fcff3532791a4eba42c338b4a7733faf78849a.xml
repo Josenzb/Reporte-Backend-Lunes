@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Actualizar ruta de aprendizaje" skipped="0" tests="11" time="15.06" timestamp="2023-04-25 07:40:37"><testcase name="actualizar rutas de aprendizaje de manera exitosa"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;500&gt;.&#10;&#13;&#10;1 expectation failed.&#10;JSON path title doesn't match.&#10;Expected: Ruta Actualizada&#10;  Actual: null&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;500&gt;.
+&#13;
+1 expectation failed.
+JSON path title doesn't match.
+Expected: Ruta Actualizada
+  Actual: null
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;500&gt;.
+&#13;
+1 expectation failed.
+JSON path title doesn't match.
+Expected: Ruta Actualizada
+  Actual: null
+&#13;
+com.sofkau.stepdefinitions.ActualizarRutaStepDefinition.seActualizaraLaRutaJuntoConUnStatus(ActualizarRutaStepDefinition.java:59)&#13;
+✽.se actualizara la ruta junto con un status 200(file:///C:/Users/nunez/Escritorio/Automatizacion%20Reto%20Final/AutomatizacionBackendMatCafe/AutomatizacionMatcafe/src/test/resources/features/HUB19actualizarruta.feature:10)&#13;
+</system-err></testcase><testcase name="actualizar rutas de aprendizaje enviando caracteres especiales"/><testcase name="actualizar rutas de aprendizaje enviando campos vacios con admin Id y Id validos"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+&#13;
+com.sofkau.stepdefinitions.ActualizarConCamposVacios.noSeActualizaraLaRutaConLosCamposEnviadosYRetornaUnStatus(ActualizarConCamposVacios.java:58)&#13;
+✽.no se actualizara la ruta con los campos enviados y retorna un status 400(file:///C:/Users/nunez/Escritorio/Automatizacion%20Reto%20Final/AutomatizacionBackendMatCafe/AutomatizacionMatcafe/src/test/resources/features/HUB19actualizarruta.feature:33)&#13;
+</system-err></testcase><testcase name="actualizar rutas de aprendizaje con id no registrados"/></testsuite>

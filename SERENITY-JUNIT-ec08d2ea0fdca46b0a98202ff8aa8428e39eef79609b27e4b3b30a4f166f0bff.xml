@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="Obtener un curso especifico" skipped="0" tests="6" time="14.19" timestamp="2023-04-25 07:37:23"><testcase name="obtener curso con un id especifico de forma exitosa"/><testcase name="obtener curso con un id especifico que no existe"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+&#13;
+com.sofkau.stepdefinitions.BuscarCursoPorUnIdEspecificoQueNoExisteStepDefinition.seObtendraUnMensajeDeErrorJuntoConUnEstatus(BuscarCursoPorUnIdEspecificoQueNoExisteStepDefinition.java:51)&#13;
+✽.se obtendra un mensaje de error  junto con un estatus 400(file:///C:/Users/nunez/Escritorio/Automatizacion%20Reto%20Final/AutomatizacionBackendMatCafe/AutomatizacionMatcafe/src/test/resources/features/HUB14obtenercursoespecifico.feature:23)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="5" name="Crear cuenta de usuario" skipped="0" tests="24" time="23.15" timestamp="2023-04-25 07:45:48"><testcase name="Crear administrador exitoso"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;400&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;400&gt;.
+&#13;
+com.sofkau.stepdefinitions.CrearAdminExitosoStepDefinition.seCrearáElUsuarioCorrectamente(CrearAdminExitosoStepDefinition.java:54)&#13;
+✽.se creará el usuario correctamente(file:///C:/Users/nunez/Escritorio/Automatizacion%20Reto%20Final/AutomatizacionBackendMatCafe/AutomatizacionMatcafe/src/test/resources/features/HUB01crearcuentas.feature:10)&#13;
+</system-err></testcase><testcase name="Crear aprendiz exitoso"/><testcase name="Envío de datos para la creación de usuario administrador vacíos"/><testcase name="Envío de datos para la creación de usuario aprendiz vacíos"/><testcase name="Creacion usuarios admin con caracteres especiales y numericos en el nombre"/><testcase name="Creacion usuarios aprendiz con caracteres especiales y numericos en el nombre"/><testcase name="Crear administrador existente"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+&#13;
+com.sofkau.stepdefinitions.CrearAdminExistenteStepDefinition.noSeCrearaLaCuentaDeUsuarioYSeRecibiráUnCodigoDeStatus(CrearAdminExistenteStepDefinition.java:55)&#13;
+✽.no se creara la cuenta de usuario y se recibirá un codigo de status "400"(file:///C:/Users/nunez/Escritorio/Automatizacion%20Reto%20Final/AutomatizacionBackendMatCafe/AutomatizacionMatcafe/src/test/resources/features/HUB01crearcuentas.feature:70)&#13;
+</system-err></testcase><testcase name="Crear aprendiz existente"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+&#13;
+com.sofkau.stepdefinitions.CrearAprendizExistenteStepDefinition.noSeCrearaLaCuentaDeAprendizYSeRecibiráUnCodigoDeStatus(CrearAprendizExistenteStepDefinition.java:54)&#13;
+✽.no se creara la cuenta de aprendiz y se recibirá un codigo de status "400"(file:///C:/Users/nunez/Escritorio/Automatizacion%20Reto%20Final/AutomatizacionBackendMatCafe/AutomatizacionMatcafe/src/test/resources/features/HUB01crearcuentas.feature:76)&#13;
+</system-err></testcase><testcase name="Crear administrador con correo de un aprendiz"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+&#13;
+com.sofkau.stepdefinitions.CrearAdminCorreoAprendizStepDefinition.noSeCrearaLaCuentaYSeRecibiráUnCodigoDeStatus(CrearAdminCorreoAprendizStepDefinition.java:56)&#13;
+✽.no se creara la cuenta y se recibirá un codigo de status "400"(file:///C:/Users/nunez/Escritorio/Automatizacion%20Reto%20Final/AutomatizacionBackendMatCafe/AutomatizacionMatcafe/src/test/resources/features/HUB01crearcuentas.feature:82)&#13;
+</system-err></testcase><testcase name="Crear aprendiz con correo de un administrador"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+&#13;
+com.sofkau.stepdefinitions.CrearAprendizCorreoAdminStepDefinition.noSeCrearaLaCuentaAprendizYSeRecibiráUnCodigoDeStatus(CrearAprendizCorreoAdminStepDefinition.java:54)&#13;
+✽.no se creara la cuenta aprendiz y se recibirá un codigo de status "400"(file:///C:/Users/nunez/Escritorio/Automatizacion%20Reto%20Final/AutomatizacionBackendMatCafe/AutomatizacionMatcafe/src/test/resources/features/HUB01crearcuentas.feature:88)&#13;
+</system-err></testcase><testcase name="Crear admin con un correo invalido"/><testcase name="Crear aprendiz con un correo invalido"/></testsuite>

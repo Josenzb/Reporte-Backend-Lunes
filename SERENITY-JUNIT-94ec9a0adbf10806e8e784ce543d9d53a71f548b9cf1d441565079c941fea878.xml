@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="Buscar administrador por email" skipped="0" tests="4" time="11.4" timestamp="2023-04-25 07:43:06"><testcase name="Busqueda de administrador exitosa"/><testcase name="Busqueda de admin fallida"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+&#13;
+com.sofkau.stepdefinitions.BuscarAdminFallidoStepDefinition.seRecibiraUnaRespuestaConElCodigoYUnMensajeDeCorreoNoEncontradoEnAdmin(BuscarAdminFallidoStepDefinition.java:47)&#13;
+✽.se recibira una respuesta con el codigo 404 y un mensaje de correo no encontrado en admin(file:///C:/Users/nunez/Escritorio/Automatizacion%20Reto%20Final/AutomatizacionBackendMatCafe/AutomatizacionMatcafe/src/test/resources/features/HUB24obteneradministradorporemail.feature:16)&#13;
+</system-err></testcase></testsuite>

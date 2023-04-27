@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="6" name="Crear ruta de aprendizaje" skipped="0" tests="17" time="18.53" timestamp="2023-04-25 07:38:39"><testcase name="crear rutas de aprendizaje de manera exitosa"/><testcase name="crear rutas de aprendizaje  agregando cursos que no existen"/><testcase name="crear rutas de aprendizaje sin cursos"/><testcase name="crear rutas de aprendizaje con campos vacíos"/><testcase name="crear rutas de aprendizaje con caracteres especiales"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;201&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;201&gt;.
+&#13;
+com.sofkau.stepdefinitions.RutaConCaracteresStepDefinition.seRegistraraLaRutaYConUnStatus(RutaConCaracteresStepDefinition.java:63)&#13;
+✽.se registrara la ruta y con un status 400(file:///C:/Users/nunez/Escritorio/Automatizacion%20Reto%20Final/AutomatizacionBackendMatCafe/AutomatizacionMatcafe/src/test/resources/features/HUB02crearruta.feature:55)&#13;
+</system-err></testcase><testcase name="crear rutas de aprendizaje que ya existe"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;500&gt;.&#10;" type="org.opentest4j.AssertionFailedError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+&#13;
+com.sofkau.stepdefinitions.CrearRutaRegistradaStepDefinition.noRegistraraLaRutaYRetornaUnStatus(CrearRutaRegistradaStepDefinition.java:94)&#13;
+✽.no registrara la ruta y retorna un status 400(file:///C:/Users/nunez/Escritorio/Automatizacion%20Reto%20Final/AutomatizacionBackendMatCafe/AutomatizacionMatcafe/src/test/resources/features/HUB02crearruta.feature:70)&#13;
+</system-err></testcase></testsuite>

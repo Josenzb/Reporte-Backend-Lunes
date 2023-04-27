@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Obtener un curso especifico","obtener curso con un id especifico que no existe","FAILURE","2023-04-25T19:37:35.3767128-05:00[America/Bogota]","0.0","2.04"

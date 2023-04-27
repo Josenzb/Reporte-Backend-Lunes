@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Crear curso de aprendizaje para la pagina de MatCafe","crear cursos de aprendizaje de manera exitosa","SUCCESS","2023-04-25T19:36:05.2431927-05:00[America/Bogota]","0.0","11.11"
+"Crear curso de aprendizaje para la pagina de MatCafe","crear cursos de aprendizaje con campos vacios en el campus de MatCafe","SUCCESS","2023-04-25T19:36:16.3865008-05:00[America/Bogota]","0.0","2.49"
+"Crear curso de aprendizaje para la pagina de MatCafe","crear cursos de aprendizaje con un id de admin inexistente","SUCCESS","2023-04-25T19:36:18.908477-05:00[America/Bogota]","0.0","1.61"

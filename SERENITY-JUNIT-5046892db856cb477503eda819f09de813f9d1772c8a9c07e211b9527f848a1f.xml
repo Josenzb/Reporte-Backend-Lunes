@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="Obtener ruta de aprendizaje por id" skipped="0" tests="6" time="12.93" timestamp="2023-04-25 07:40:03"><testcase name="obtener ruta de aprendizaje por id"/><testcase name="Envio de un id  que no estaregistrado"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+&#13;
+com.sofkau.stepdefinitions.ObtenerRutaIdNoRegistradoStedDefinition.seMostraraUnMensajeDeErrorJuntoConElEstatus(ObtenerRutaIdNoRegistradoStedDefinition.java:51)&#13;
+✽.se mostrara un mensaje de error junto con el estatus 400(file:///C:/Users/nunez/Escritorio/Automatizacion%20Reto%20Final/AutomatizacionBackendMatCafe/AutomatizacionMatcafe/src/test/resources/features/HUB22obtenerrutaid.feature:21)&#13;
+</system-err></testcase></testsuite>
